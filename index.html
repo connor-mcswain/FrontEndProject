@@ -1,0 +1,126 @@
+		<!DOCTYPE html>
+		<html>
+			<head>
+				<title>Penn Labs Sample Website</title>
+				<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+				<link href="css/custom.css" rel="stylesheet" media="screen">
+			</head>
+			<body>
+				<nav id="bootstrap-overrides" class="navbar-custom navbar navbar-toggleable-md navbar-light bg-faded">
+					<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<a class="navbar-brand logo1" href="#"></a>
+					<a class="navbar-brand logo2" href="#"></a>
+					<a class="navbar-brand logo3" href="#"></a>
+
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="nav navbar-nav ml-auto w-100 justify-content-end">
+							<li class="nav-item">
+								<a class="nav-link" href="#">About</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Projects</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Blog</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Contact</a>
+							</li>
+							<li id="override" class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle btn btn-secondary btn-round" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Categories</a>
+								<div class="dropdown-menu">
+									<a class="dropdown-item" href="#">Category 1</a>
+									<a class="dropdown-item" href="#">Category 2</a>
+									<a class="dropdown-item" href="#">Category 3</a>
+								</div>
+						</ul>
+					</div>
+				</nav>
+
+
+				<form id="contact-form">
+
+				    <h1>Instantly reach us filling form below</h1>
+
+				    <div id="padding" class="controls">
+
+				        <div class="row">
+				            <div class="col-md-6">
+				                <div class="form-group">
+				                    <label>Hi there, my name is</label>
+				                    <input class="form-control" placeholder="how people call you">
+				                </div>
+				            </div>
+				            <div class="col-md-6">
+				                <div class="form-group">
+				                    <label>I want to speak about</label>
+				                    <input class="form-control" placeholder="what's the problem">
+				                </div>
+				            </div>
+				        </div>
+				        <div class="row">
+				            <div class="col-md-6">
+				                <div class="form-group">
+				                    <label>You can reach me via email at</label>
+				                    <input class="form-control" placeholder="the real one">
+				                </div>
+				            </div>
+				            <div class="col-md-6">
+				                <div class="form-group">
+				                    <label>or</label>
+				                    <input class="form-control" placeholder="skype, phone, codename">
+				                </div>
+				            </div>
+				        </div>
+				        <div class="row">
+				            <div class="col-md-12">
+				                <div class="form-group">
+				                    <label>My ballpark for this project is</label>
+				                    <input class="form-control" placeholder="$$$$$"></textarea>
+				                </div>
+				            </div>
+				            <div class="col-md-12">
+				                <input type="submit" class="btn btn-success btn-send" value="Submit">
+				            </div>
+				        </div>
+				    </div>
+
+				</form>
+
+				<h4>Did not finish the interactive cart</h4>
+				<div class="cd-cart-container empty">
+					<a href="#0" class="cd-cart-trigger">
+						Cart
+						<ul class="count"> <!-- cart items count -->
+							<li>0</li>
+							<li>0</li>
+						</ul> <!-- .count -->
+					</a>
+				 
+					<div class="cd-cart">
+						<div class="wrapper">
+							<header>
+								<h2>Cart</h2>
+								<span class="undo">Item removed. <a href="#0">Undo</a></span>
+							</header>
+							
+							<div class="body">
+								<ul>
+									<!-- products added to the cart will be inserted here using JavaScript -->
+								</ul>
+							</div>
+				 
+							<footer>
+								<a href="#0" class="checkout btn"><em>Checkout - $<span>0</span></em></a>
+							</footer>
+						</div>
+					</div> <!-- .cd-cart -->
+				</div> <!-- cd-cart-container -->
+
+
+				<script src="http://code.jquery.com/jquery-latest.js"></script>
+				<script src="js/bootstrap.min.js"></script>
+			</body>
+		</html>
